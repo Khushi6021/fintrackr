@@ -32,7 +32,7 @@ const TransactionForm = ({ onAdd }) => {
       </select>
 
       <input
-        type="text"
+        type="number"
         value={amount}
         onChange={(e) => setAmount(e.target.value)}
         placeholder="Amount"
